@@ -1,0 +1,59 @@
+.cider {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #335c7c;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  height: 625px;
+  width: 19vw;
+  margin-left: 4vw;
+  float: left;
+}
+
+.cider h2 {
+  font-size: 2.2rem;
+  color: #222222;
+}
+
+.cider h3 {
+  color: #f0e6da;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.imageSize {
+  max-height: 400px;
+  width: auto;
+  max-width: 250px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1680px) {
+  .cider {
+    width: 33vw;
+    margin-left: 11vw;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .cider {
+    width: 33vw;
+    margin-left: 11vw;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .cider {
+    width: 50vw;
+    margin-left: 25vw;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .cider {
+    width: 70vw;
+    margin-left: 15vw;
+  }
+}

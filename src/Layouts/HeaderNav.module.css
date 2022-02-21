@@ -1,0 +1,97 @@
+.header {
+  width: 50vw;
+  height: auto;
+  max-height: 100px;
+  max-height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3f73a2;
+  color: #f0e6da;
+  margin-top: 11vh;
+  z-index: 2;
+}
+
+
+.nav ul {
+  width: 80vw;
+  margin: 60px auto;
+  list-style: none;
+  display: flex;
+  /*  margin: 0% 0 0 -4%; 
+*/
+  margin-top: 20vh;
+  text-align: center;
+  margin-left: 10vw;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+  z-index: 2;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #88dfdf;
+  font-family: dirtyFont, sans-serif;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #e6fcfc;
+}
+
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li {
+  margin: 0 15px;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+.nav a {
+  font-size: 1em;
+  text-decoration: none;
+
+}
+
+.nav a.active {
+  color: #222;
+}
+
+
+.pig_logo {
+  height: auto;
+  width: 12vw;
+  max-width: 210px;
+  min-width: 80px;
+  z-index: 1;
+  display: flex;
+  margin-top: -9vh;
+  margin-left: 44%;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 760px) {
+  .nav ul {
+    text-align: center;
+    display: inline-block;
+    margin-top: 10vh;
+    position: flex;
+    margin-left: 6vw;
+  }
+
+  .pig_logo {
+    position: absolute;
+    top: 320px;
+  }
+
+
+}
