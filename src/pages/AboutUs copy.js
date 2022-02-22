@@ -15,7 +15,7 @@ const AboutUs = () => {
           <img
             src="\images\backgrounds\About Page Splash Image 1 Torn.jpg"
             className={styling.torn_banner}
-            alt="image of scenery"
+            alt="pics from backend"
           />
         </div>
       </section>
